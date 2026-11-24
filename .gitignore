@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 가상환경 (Pi는 ~/env를 쓰지만 혹시 몰라서)
+env/
+venv/
+.venv/
+
+# OS / 에디터
+.DS_Store
+.vscode/
+*.swp
+
+# 측정 결과·로그 (README에 정리한 것만 남김)
+*.log
+logs/
