@@ -57,8 +57,12 @@
 
 ## 실행
 
-<!-- 게임 루프·플랫폼 분리(#1, #2) 작업 후 채우기 -->
-
+```bash
+cd ~/pi-game
+source ~/env/bin/activate
+python main.py
+```
+`Ctrl+C`로 종료하면 화면을 지우고 백라이트를 끈다.
 <br>
 
 # 📌 Convention
