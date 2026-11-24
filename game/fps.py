@@ -2,7 +2,7 @@ import time
 
 
 class FpsCounter:
-    """render할 때마다 tick()을 부르면 interval초마다 평균 FPS를 계산한다."""
+    #render할 때마다 tick()을 부르면 interval초마다 평균 FPS를 계산한다.
 
     def __init__(self, interval=1.0):
         self.interval = interval
