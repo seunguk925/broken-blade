@@ -26,5 +26,7 @@ class Display:
         self._disp.image(image)
 
     def close(self):
-        self._disp.image(Image.new("RGB", (WIDTH, HEIGHT), (0, 0, 0)))
+      try:
+       self._disp.image(Image.new("RGB", (WIDTH, HEIGHT), (0, 0, 0)))
+      finally:
         self._backlight.value = False
